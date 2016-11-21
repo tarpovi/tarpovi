@@ -1,0 +1,412 @@
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("test.png");
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#container {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-image: url("paisley.png");
+}
+
+#nav-menu {
+    height: 100%;
+}
+
+#navbar-header {
+    display: inline-block;
+    margin: 0 0;
+    font-size: 2vw;
+    width: 30%;
+    text-align: left;
+    padding-left: 5%;
+    vertical-align: middle;
+}
+
+nav.navbar {
+    background-color: rgba(255, 255, 255, 1);
+/ / Animation -webkit-transition: all 0.4 s ease;
+    transition: all 0.4s ease;
+    text-align: right;
+    font-size: 1.7vw;
+    border-bottom: 1px solid black;
+
+}
+
+nav.navbar li :hover {
+    text-decoration: none;
+    background-color: forestgreen;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-body {
+    margin: 0 0;
+    display: inline-block;
+    width: 69%;
+    height: auto;
+}
+
+.navbar-body ul {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.navbar-body ul li {
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+    border-left: 1px solid rgba(193,193,193,0.5);
+}
+
+nav.navbar li a {
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav.shrink {
+    font-size: 1.2vw;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+nav.shrink ul {
+    height: 100%;
+    display: inline-block;
+}
+
+nav.shrink ul li {
+    font-size: 1.2vw;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px 2px;
+}
+
+nav img {
+    width: 100%;
+    height: auto;
+    max-height: 88px;
+    max-width: 210px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav button {
+    display: none;
+}
+
+nav.shrink img {
+    display: none;
+/ / Animation -webkit-transition: all 0.9 s ease;
+    transition: all 0.9s ease;
+}
+
+nav.shrink button {
+    font-size: 1vw;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: forestgreen;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+#info {
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#info img {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+#info .description {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.info-container {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+#left-container {
+    text-align: right;
+}
+
+#right-container {
+    text-align: left;
+}
+
+.houses-link-gallery {
+    width: 100%;
+    height: auto;
+    position: relative; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+    background: rgb(255, 255, 255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0); /* IE6-9 */
+
+}
+
+.houses-link-gallery button {
+    display: block;
+    width: 20%;
+    height: 20%;
+    border: 3px solid forestgreen;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 5em;
+    left: 5vw;
+    padding: 0;
+}
+
+.houses-link-gallery button:hover {
+    background-color: forestgreen;
+}
+
+.houses-link-gallery button:hover > a {
+    color: white;
+}
+
+.houses-link-gallery a {
+    display: inline-block;
+    padding: 12% 10%;
+    font-size: 2vw;
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.houses-link-gallery img {
+    width: 100%;
+    display: inline-block;
+    z-index: -1;
+}
+
+.text-image {
+    z-index: +1 !important;
+    display: block !important;
+    width: 40% !important;
+    height: auto;
+    position: absolute;
+    top: 7em;
+    left: 3vw;
+}
+
+#rooms button {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: skyblue;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#map {
+    background-color: white;
+}
+
+#map iframe {
+    pointer-events: none;
+}
+
+#price-and-contacts {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.price-contacts-field {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+#contacts {
+    font-size: 1vw;
+}
+
+#contacts img {
+    width: 25px;
+}
+
+#contact-form {
+    display: none;
+    top: 50px;
+    max-height: 100%;
+/ / Animation -webkit-transition: all 0.4 s ease;
+    transition: all 0.4s ease;
+    z-index: +2;
+    width: 100%;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+
+.terms-text {
+    overflow-y: scroll;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2vw;
+    text-align: left;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;
+
+}
+
+#general-terms {
+    display: none;
+    overflow-y: scroll;
+    position: fixed;
+    top: 50px;
+    max-height: 100%;
+    z-index: +2;
+    width: 100%;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+.connection-button {
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 0.5vw 1vw;
+    margin: 1vw 1vw 1vw 0;
+}
+
+.connection-button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+footer {
+    background-color: darkgray;
+    height: 200px;
+}
+
+a {
+    color: white;
+}
+
+.contactForm {
+    width: 80%;
+}
+
+.contactForm input {
+    border: none;
+    display: block;
+    margin: 0 0 21px 36px;
+    background-color: #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    padding: 14px;
+    width: 80%;
+    outline: none;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.contactForm input:last-of-type {
+    margin-bottom: 0px;
+}
+
+.contactForm textarea {
+    border: none;
+    display: block;
+    margin: 0 0 21px 36px;
+    background-color: #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+    padding: 14px;
+    width: 100%;
+    outline: none;
+    height: 150px;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    resize: none;
+}
+
+.contactForm form {
+    margin: 55px 0;
+}
+
+.contactForm input[type="submit"] {
+    background-color: #EA3833;
+    box-shadow: none;
+    width: 100px;
+    color: #fff;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+}
+
+.contactForm input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+.contactForm input[class="form-control-date"] {
+    display: inline-block; !important;
+    width: 35%; !important;
+}
+@media only screen and (max-width: 1200px) {
+    #container{
+        width: 100%;
+    }
+    nav.shrink button{
+        font-size: 3vw;
+    }
+    .navbar-body ul li{
+        font-size: 2vw;
+    }
+    nav.shrink ul li{
+        font-size:2vw;
+    }
+    #navbar-header {
+        margin-top: 10px;
+    }
+}
+
+

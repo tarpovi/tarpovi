@@ -1,0 +1,189 @@
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    background-image: url("test.png");
+}
+button:focus {outline:0;}
+#main-text {
+    text-shadow: 5px 5px black;
+}
+
+#rooms h2{
+    color: red;
+    font-style: italic;
+}
+#rooms p{
+    color: black;
+    display: inline-block;
+    font-style: italic;
+}
+#container {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    background-color: white;
+}
+.invisible{
+    display: none;
+}
+.navigation{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+.navigation a button{
+    width: 10vw;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top:25%;
+    margin: auto;
+    background-color: forestgreen;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.navigation img{
+    width: 10%;
+    text-align: center;
+}
+.navigation h1{
+    display: inline-block;
+}
+.navigation p {
+    font-size: 1vw;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top:25%;
+    color: black;
+}
+.navigation p img{
+    width: 20px;
+}
+.house-selection {
+    width: 100%;
+    height: 14vw;
+    max-height: 220px;
+    text-align: center;
+    align-content: center;
+    background-image: url("Gallery/gallery-buttons-compresed.png");
+    transition: background-image 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 2vw;
+    border-bottom: 1px solid forestgreen;
+}
+.house-selection button{
+    display: inline-block;
+    width: 45%;
+    height: 10vw;
+    border: none;
+    background-color: rgba(22,22,22,0);
+    color: white;
+
+}
+.house-selection button:hover{
+    color:white;
+    background-size: 110% !important;
+}
+#gallery-buttons{
+    display: block;
+}
+.selected{
+    color:white !important;
+    background-color:  transparent !important;
+    font-size: 3vw !important;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.house{
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 4vh 2vh;
+    height: 35vw;
+    min-height: 300px;
+    border-bottom: 1px solid forestgreen;
+}
+.houses-info{
+    display: inline-block;
+    width: 54%;
+    text-align: center;
+    height: 50%;
+}
+.houses-info hr {
+    height: 1px;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid forestgreen;
+}
+.house img{
+    width: 44%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    vertical-align: top;
+    max-height: 30vw;
+}
+.house p{
+    font-size: 1.33vw;
+    vertical-align: middle;
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+}
+.house h1{
+    font-size: 3vw;
+}
+.thumbnails{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid ghostwhite;
+    vertical-align: baseline;
+    height: 50%;
+}
+.thumbnails img{
+    width: 15%;
+    height: 6vw;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+#rooms {
+    padding-top: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.rooms-info-list {
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.rooms-info-list ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.rooms-info-list li {
+    margin: 5px;
+}
+
+.rooms-info-list ul li img {
+    width: 28px;
+    height: auto;
+}

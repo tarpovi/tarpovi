@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Guest House Tarpovi</title>
+    <link rel="stylesheet" href="Utils/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="homepage-gallery.css"/>
+    <link rel="stylesheet" href="bootstrap-datepicker-1.6.4-dist/css/bootstrap-datepicker.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Максимум 155 думи описание.">
+    <meta name="keywords" content="десет, keyword-a, за, google">
+
+    <script src="Utils/jquery-3.1.1.min.js"></script>
+    <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
+    <script src="homepage-gallery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="bootstrap-datepicker-1.6.4-dist/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="bootstrap-datepicker.bg.js" charset="UTF-8"></script>
+</head>
+<body>
+<div id="container">
+    <nav class="navbar navbar-fixed-top">
+        <div class="navbar navbar-header" id="navbar-header">
+            <img src="Gallery/logo_tarpovi.png" alt="Logo Tarpovi Guest House"/>
+            <button id="reserve">Резервирай</button>
+        </div>
+        <div class="navbar-body">
+            <ul class="nav " id="nav-menu">
+                <li id="home" class="active"><a href="#">Начало <span class="sr-only">(current)</span></a></li>
+                <li id="extras"><a href="#">Удобства</a></li>
+                <li id="navigate-to-houses"><a href="#">Къщички</a></li>
+                <li id="navigate-to-gallery"><a href="#">Галерия</a></li>
+                <li id="navigate-to-map"><a href="#">Карта</a></li>
+                <li id="navigate-to-price"><a href="#">Цени и контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="jssor_1"
+         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1000px; height: 500px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides"
+             style="cursor: default; position: relative; top: 0px; left: 0px; width: 1000px; height: 500px; overflow: hidden;">
+            <div data-p="600.0" style="background-color: rgba(0,0,0,0.5);">
+                <img data-u="image" src="img/second.jpg" alt="Tarpovi Guest House"/>
+                <div style="text-shadow: 2px 2px black; position: absolute; top: 182px; left: 293px; width: 540px; height: 120px; font-family: Century Gothic; font-size: 50px; color: #ffffff; line-height: 60px;">
+                    Къщи за гости Търпови
+                    <br/>
+                    <h5 style="text-align: right">"...Най-доброто място за отдих!"</h5>
+                </div>
+            </div>
+            <div data-p="600.0" style="display: none;">
+                <img data-u="image" src="img/pool.jpg" alt="Tarpovi Guest House"/>
+            </div>
+            <div data-p="600.0" style="display: none;">
+                <img data-u="image" src="img/first.jpg" alt="Tarpovi Guest House"/>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;"
+              data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;"
+              data-autocenter="2"></span>
+    </div>
+    <div id="info">
+        <h1>Най-доброто място за почивка</h1>
+        <div id="left-container" class="info-container">
+            <div class="description">
+                <h3>Уют и комфорт</h3>
+                <h5>Къщи за гости "Търпови" са две напълно самостоятелни къщи за отдих, тип вили,
+                    разположени на тихо и спокойно място, близо до единственият гейзер в континентална Европа. </h5>
+            </div>
+            <img src="Gallery/Tarpovi/comfort.jpg">
+            <br/>
+            <div class="description">
+                <h3> Тишина и спокойствие</h3>
+                <h5>В непосредствена близост до къщите са паркът с Гейзера-фонтан,
+                    три басейна с минерална вода и балнеолечебен санаториум.</h5>
+            </div>
+            <img src="Gallery/Tarpovi/DSC01933.JPG">
+        </div>
+        <div id="right-container" class="info-container">
+            <img src="Gallery/Tarpovi/underTheMountain.jpg">
+            <div class="description">
+                <h3>В подножието на планина Рила</h3>
+                <h5>В близост до Седемте рилски езера и курортно селище Паничище.</h5>
+
+            </div>
+            <br/>
+            <img src="Gallery/Tarpovi/center.jpg">
+            <div class="description">
+                <h3>Множество забавления в курортното селище</h3>
+                <h5>Само на 50 метра от Градската баня със СПА център, а в рамките на 30 метра има хранителен магазин,
+                    пицария, три ресторанта, спирка на градския транспорт. </h5>
+            </div>
+        </div>
+    </div>
+    <div class="houses-link-gallery">
+        <img class="text-image" src="Gallery/Text.png" alt="Разгледайте нашите къщички">
+        <img src="Gallery/div-background.png" alt="Къща за гости Тарпови"/>
+        <button><a href="gallery.html">Към Къщите</a></button>
+    </div>
+
+    <div id="jssor_2"
+         style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 550px; overflow: hidden; visibility: hidden; background-color: rgba(36,38,46,0.2);">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides"
+             style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 465px; overflow: hidden;">
+            <div data-p="158.125">
+                <img data-u="image" src="img/6.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/6_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/2.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/2_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/3.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/3_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/4.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/4_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/5.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/5_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/7.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/7_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/8.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/8_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+            <div data-p="158.125" style="display: none;">
+                <img data-u="image" src="img/9.jpg" alt="Къща за гости Тарпови"/>
+                <img data-u="thumb" src="img/9_tn.jpg" alt="Къща за гости Тарпови"/>
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort01-75-75"
+             style="position:absolute;left:0px;bottom:0px;width:800px;height:85px;" data-autocenter="1">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; background-color: #000; filter:alpha(opacity=30.0); opacity:0.3;"></div>
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                    </div>
+                    <div class="c"></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;"
+              data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;"
+              data-autocenter="2"></span>
+    </div>
+
+    <div id="map">
+        <iframe width="100%" height="450" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2dFm75TdqhQRtTs3oADQTzw&key=AIzaSyCzb360GJZ94Y8W_jc6ZOyF7X3UKN2rRMI"
+                allowfullscreen></iframe>
+    </div>
+    <div id="price-and-contacts">
+
+        <div id="price" class="price-contacts-field">
+            <h1>Цени</h1>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>
+                        Къща<!-- Стая -->:
+                    </th>
+                    <th>
+                        Цена Силен Сезон<!-- Цена Делник -->
+                    </th>
+                    <th>
+                        Цена Слаб Сезон<!-- Цена уикенд -->
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        Горна Къща
+                    </td>
+                    <td>
+                        40 лева
+                    </td>
+                    <td>
+                        40 лева
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Долна Къща
+                    </td>
+
+                    <td>
+                        40 лева
+                    </td>
+                    <td>
+                        40 лева
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="contacts" class="price-contacts-field">
+            <h1>Контакти</h1>
+
+            <p><img src="Icons/location.png"><strong>Адрес:  </strong>Град Сапарева баня, ул. Германея № 35 и ул. Паничище
+                № 5</p>
+
+            <p><img src="Icons/tel.png"><strong>Телефон:  </strong>0899 88 83 42 / +359 899 888 342 </p>
+            <p><img src="Icons/tel.png"><strong>Телефон:  </strong>0887 60 86 49 / +359 887 608 649</p>
+
+            <p><img src="Icons/mail.png"><strong>E-mail:  </strong>Tarpovi@abv.bg</p>
+
+            <h2>За Резервация</h2>
+            <p><img src="Icons/clock.png"> Всеки Ден от 06:00 - 22:00 </p>
+
+            <button id="open-terms" class="connection-button">Обши условия</button>
+            <button id="open-contact-form" class="connection-button">Свържи се с нас</button>
+        </div>
+    </div>
+    <div id="contact-form">
+        <div class="wrapper">
+            <div class="col-md-7 contactForm">
+                <form action="https://formspree.io/kikopeyanski@gmail.com" method="POST">
+                    <input type="text" onfocus="if(this.value == 'Име'){this.value = '';}"
+                           onblur="if(this.value == ''){this.value='Име';}" name="Име" value="Име">
+
+                    <input type="email" onfocus="if(this.value == 'Email'){this.value = '';}"
+                           onblur="if(this.value == ''){this.value='Email';}" name="Email" value="Email">
+
+                    <input type="text" onfocus="if(this.value == 'Телефон'){this.value = '';}"
+                           onblur="if(this.value == ''){this.value='Телефон';}" name="Телефон" value="Телефон">
+
+                    <input class="form-control-date" type="text"
+                           onfocus="if(this.value == 'Дата на настаняване'){this.value = '';}"
+                           onblur="if(this.value == ''){this.value='Дата на настаняване';}" name="Дата на настаняване"
+                           value="Дата на настаняване">
+
+                    <input  class="form-control-date" type="text"
+                           onfocus="if(this.value == 'Дата на напускане'){this.value = '';}"
+                           onblur="if(this.value == ''){this.value='Дата на напускане';}" name="Дата на напускане"
+                           value="Дата на напускане">
+
+                    <textarea name="Съобщение" onfocus="if(this.value == 'Съобщение'){this.value = '';}"
+                              onblur="if(this.value == ''){this.value='Съобщение';}">Съобщение</textarea>
+                    <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+                    <input type="submit" value="Изпрати">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="general-terms">
+    <div class="terms-text">
+        <h1><i>Общи условия и правила за ползване на къщи за гости "Търпови“, </i></h1>
+
+        <p><i>гр. Сапарева баня:</i></p>
+
+        <p><i>Уважаеми гости, за приятната и безпроблемна почивка в къщи за гости "Търпови“Ви молим стриктно да
+            спазвате общите ни условия:</i></p>
+
+        <p><b>НАСТАНЯВАНЕ И ОСВОБОЖДАВАНЕ </b></p>
+
+        <p>- Час за настаняване: след 14:00 ч.</p>
+
+        <p>- Час на освобождаване до 12:00 ч. на обяд </p>
+
+        <p>Настаняването в къщите става посредством попълнени адресни карти – попълнени лично, удостоверяващи
+            самоличността на гостите. </p>
+
+        <p>При късно освобождаване на къщата, първият просрочен час подлежи на заплащане в размер на 10% от
+            стойността на нощувката, вторият просрочен час - 50%, третият и повече часове на 100%, ако не са
+            договорени други условия със собственика.</p>
+
+        <p><b>Заплащане</b>. Нощувките съгласно направените резервации се заплащат преди самото настаняване. Не се
+            допуска настаняване на гости ако не е заплатена цялата сума. <b>Анулиране или редуциране </b>на броя на
+            нощувките след настаняване или по време на престоя НЕ е възможно, клиентът е длъжен да заплати сумата за
+            целия резервиран престой.</p>
+
+        <p>В цената е включена туристическа такса и ДДС. Цените са в български лева.</p>
+
+        <p><b>ЩЕТИ ИЛИ ЗАГУБИ</b></p>
+
+        <p>При използване на къщи” Търпови”, гостите са длъжни да спазват чистота, както и да се отнасят с
+            отговорност към ползването на оборудването и обзавеждането в целия обект. В случай на кражба или
+            повреда, гостите са длъжни да възстановят за своя сметка стойността на откраднатия или повреден
+            предмет.</p>
+
+        <p><b>НОРМИ НА ПОВЕДЕНИЕ</b></p>
+
+        <p>Къщи за гости „Търпови” са разположени в населено място. От гостите се изисква да спазват приетите норми
+            на поведение и да гарантират, че всички гости и посетители на къщите се държат по подходящ разумен
+            начин.</p>
+
+        <p>Незаконни или неморални дейности, включително хазарт, проституция, наркотици, притежаване или използване
+            на пиротехнически средства или опасни товари, както и притежаване или използване на огнестрелни оръжия и
+            други оръжия са строго забранени. </p>
+
+        <p>Гостите се задължават да спазват установените часове за почивка, а именно в периода:</p>
+
+        <p>- От 14:00часа до 16:00 часа</p>
+
+        <p>- От 23:00часа до 08:00 часа</p>
+
+        <p>При нарушаване на обществения ред и подаден сигнал към органите на реда, <b>гостите</b> на къщи за гости
+            „Търпови” поемат цялата отговорност по разрешаване на казуса. Ако органите на реда наложат санкции,
+            глоби, актове и др. наказания, предвидени от българското законодателство, те се покриват изцяло от
+            гостите, отговорни за установените нарушения.</p>
+
+        <p>Пушенето в спалните на къщите НЕ Е допустимо.</p>
+
+        <p>При напускане на къщите, гостите са длъжни да я оставят в състоянието, в което са я заварили при
+            настаняването си.</p>
+
+        <p><b>ЦЕННОСТИ И СИГУРНОСТ</b></p>
+
+        <p>Собственикът или негов представител НЕ поема отговорност за:</p>
+
+        <p>- Всяко физическо нараняване, болест, загуба, повреда, неудобство или допълнителни разходи, направени от
+            страна на гостите и съпътстващите ги лица, независимо от причината;</p>
+
+        <p>- Невъзможност на гостите да отседнат в къщата, поради възпрепятстващи обстоятелства от личен характер
+            (отмяна на отпуска, загуба на документи и други);</p>
+
+        <p>- При форсмажорни обстоятелства (непреодолима сила) - природни или стихийни бедствия (поройни дъждове,
+            наводнения, снегонавявания, виелици, градушки, земетресения, свлачища и други); блокади (на пътища,
+            граници и други), пожар, производствени аварии; войни и други; както и други събития извън контрола на
+            собственика, които правят къщи за гости "Търпови" опасна или неизползваема.</p>
+
+        <p>Къщи за гости „Търпови“ не носят отговорност за загубени, забравени или откраднати вещи от стаите,
+            трапезарията или басейна, както и за щети, причинени от трети лица. Гостите са отговорни за имота по
+            време на наемния период и гарантират, че всички прозорци и врати са заключени в случаите, в които те
+            отсъстват и не са на територията на къщи за гости „Търпови” (са на разходка и други).</p>
+
+        <p>Моля не оставяйте децата без надзор. </p>
+
+        <p>Собственикът и/или представител на собственика на къщи за гости „Търпови“ не носи отговорност за
+            настъпили травми с децата на гостите в рамките на туристическия обект, както и извън него. Грижата за
+            децата е отговорност на родителите им! Отговорни за лични загуби и/или травми на Вас или на Вашата
+            компания сте единствено Вие. </p>
+
+        <p><b>ДОПЪЛНИТЕЛНИ РАЗПОРЕДБИ</b></p>
+
+        <p>· Собственикът и/или представител на собственика на басейна не е отговорен за наранявания и инциденти,
+            причинени по вина на посетителя.</p>
+
+        <p>· ЗАБРАНЯВА СЕ СКАЧАНЕТО В БАСЕЙНА!</p>
+
+        <p>· Родителите носят пълна отговорност за безопасността на децата си.</p>
+
+        <p>· За всякакви проблеми по време на наемния период е необходимо, гостите да уведомят собственика или
+            представител на собственика, които веднага ще се постараят да отстранят проблема.</p>
+
+        <p>Собственикът на къщи за гости „Търпови“ запазва правото си да актуализира настоящите общите условия и
+            правила по всяко време без специално уведомяване на клиентите.</p>
+
+        <p><i>НАСТОЯЩИТЕ ОБЩИ УСЛОВИЯ ВЛИЗАТ В СИЛА ПРИ ПЛАЩАНЕ НА НОЩУВКА ВЪВ КЪЩИ ЗА ГОСТИ </i>„<i>ТЪРПОВИ</i>“<i>
+            .</i></p>
+    </div>
+</div>
+<footer>
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_google_plus"></a>
+        <a class="a2a_button_email"></a>
+        <a class="a2a_button_whatsapp"></a>
+        <a class="a2a_button_viber"></a>
+        <a class="a2a_button_skype"></a>
+        <a class="a2a_button_sms"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+</footer>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

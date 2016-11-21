@@ -63,7 +63,7 @@ nav.navbar li :hover {
     display: inline-block;
     width: 15%;
     vertical-align: middle;
-    border-left: 1px solid rgba(193,193,193,0.5);
+    border-left: 1px solid rgba(193, 193, 193, 0.5);
 }
 
 nav.navbar li a {
@@ -162,50 +162,33 @@ nav.shrink button {
 }
 
 .houses-link-gallery {
-    width: 100%;
-    height: auto;
+    height: 650px;
+    background: url('img/Houses/homepage.jpg') no-repeat;
+    background-size: cover;
     position: relative; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
-    background: rgb(255, 255, 255); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(229, 229, 229, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0); /* IE6-9 */
 
-}
-
-.houses-link-gallery button {
-    display: block;
-    width: 20%;
-    height: 20%;
-    border: 3px solid forestgreen;
-    border-radius: 7px;
-    position: absolute;
-    bottom: 5em;
-    left: 5vw;
-    padding: 0;
-}
-
-.houses-link-gallery button:hover {
-    background-color: forestgreen;
-}
-
-.houses-link-gallery button:hover > a {
-    color: white;
 }
 
 .houses-link-gallery a {
-    display: inline-block;
-    padding: 12% 10%;
+    display: block;
+    width: 20%;
+    padding: 2vw 0;
+    border: 3px solid forestgreen;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 3em;
+    left: 5vw;
     font-size: 2vw;
     text-decoration: none;
     color: forestgreen;
+    text-align: center;
 }
 
-.houses-link-gallery img {
-    width: 100%;
-    display: inline-block;
-    z-index: -1;
+.houses-link-gallery a:hover {
+    background-color: forestgreen;
+    color: white;
 }
+
 
 .text-image {
     z-index: +1 !important;
@@ -249,6 +232,7 @@ nav.shrink button {
     width: 39%;
     padding: 20px;
 }
+
 #contacts {
     width: 60%;
     font-size: 1vw;
@@ -270,7 +254,6 @@ nav.shrink button {
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 20px;
 }
-
 
 .terms-text {
     overflow-y: scroll;
@@ -389,22 +372,29 @@ a {
 }
 
 .contactForm input[class="form-control-date"] {
-    display: inline-block; !important;
-    width: 35%; !important;
+    display: inline-block;
+!important;
+    width: 35%;
+!important;
 }
+
 @media only screen and (max-width: 1200px) {
-    #container{
+    #container {
         width: 100%;
     }
-    nav.shrink button{
+
+    nav.shrink button {
         font-size: 3vw;
     }
-    .navbar-body ul li{
+
+    .navbar-body ul li {
         font-size: 2vw;
     }
-    nav.shrink ul li{
-        font-size:2vw;
+
+    nav.shrink ul li {
+        font-size: 2vw;
     }
+
     #navbar-header {
         margin-top: 10px;
     }

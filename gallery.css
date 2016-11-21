@@ -6,31 +6,39 @@ body {
     text-align: center;
     background-image: url("test.png");
 }
-button:focus {outline:0;}
+
+button:focus {
+    outline: 0;
+}
+
 #main-text {
     text-shadow: 5px 5px black;
 }
 
-#rooms h2{
+#rooms h2 {
     color: red;
     font-style: italic;
 }
-#rooms p{
+
+#rooms p {
     color: black;
     display: inline-block;
     font-style: italic;
 }
+
 #container {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
     width: 80%;
-    margin:auto;
+    margin: auto;
     background-color: white;
 }
-.invisible{
+
+.invisible {
     display: none;
 }
-.navigation{
+
+.navigation {
     width: 100%;
     text-align: center;
     background-color: rgba(255, 255, 255, 1);
@@ -38,13 +46,14 @@ button:focus {outline:0;}
     position: relative;
     padding: 20px;
 }
-.navigation a button{
+
+.navigation a button {
     width: 10vw;
     height: 50px;
     display: inline-block;
     position: absolute;
     left: 40px;
-    top:25%;
+    top: 25%;
     margin: auto;
     background-color: forestgreen;
     border: 1px solid white;
@@ -52,61 +61,69 @@ button:focus {outline:0;}
     color: white;
     font-size: 16px;
 }
-.navigation img{
-    width: 10%;
+
+.navigation img {
+    width: 12%;
     text-align: center;
 }
-.navigation h1{
+
+.navigation h1 {
     display: inline-block;
 }
+
 .navigation p {
     font-size: 1vw;
     display: inline-block;
     position: absolute;
     right: 30px;
-    top:25%;
+    top: 25%;
     color: black;
 }
-.navigation p img{
+
+.navigation p img {
     width: 20px;
 }
+
 .house-selection {
     width: 100%;
-    height: 14vw;
     max-height: 220px;
     text-align: center;
     align-content: center;
-    background-image: url("Gallery/gallery-buttons-compresed.png");
+    background-image: url("img/Navigation/idle.jpg");
     transition: background-image 0.2s ease-in-out;
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 2vw;
     border-bottom: 1px solid forestgreen;
 }
-.house-selection button{
+
+.house-selection button {
     display: inline-block;
     width: 45%;
     height: 10vw;
     border: none;
-    background-color: rgba(22,22,22,0);
+    background-color: rgba(22, 22, 22, 0);
     color: white;
 
 }
-.house-selection button:hover{
-    color:white;
+
+.house-selection button:hover {
+    color: white;
     background-size: 110% !important;
 }
-#gallery-buttons{
+
+#gallery-buttons {
     display: block;
 }
-.selected{
-    color:white !important;
-    background-color:  transparent !important;
+
+.selected {
+    color: white !important;
+    background-color: transparent !important;
     font-size: 3vw !important;
     transition: font-size 0.2s ease-in-out;
 }
 
-.house{
+.house {
     width: 100%;
     background-color: whitesmoke;
     color: black;
@@ -114,54 +131,68 @@ button:focus {outline:0;}
     height: 35vw;
     min-height: 300px;
     border-bottom: 1px solid forestgreen;
+    position: relative;
 }
-.houses-info{
+
+.houses-info {
     display: inline-block;
-    width: 54%;
+    width: 44%;
     text-align: center;
-    height: 50%;
 }
+
+.house-image-wrapper {
+    display: inline-block;
+    width: 30%;
+}
+
 .houses-info hr {
     height: 1px;
     width: 80%;
     border: 0;
     border-top: 1px solid forestgreen;
 }
-.house img{
-    width: 44%;
-    height: auto;
+
+.house img {
+    width: 55%;
     display: inline-block;
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
     border-radius: 5px;
     vertical-align: top;
     max-height: 30vw;
 }
-.house p{
-    font-size: 1.33vw;
+
+.house p {
+    width: 80%;
+    font-size: 1.2vw;
     vertical-align: middle;
     font-style: italic;
     display: inline-block;
     text-align: center;
 }
-.house h1{
+
+.house h1 {
     font-size: 3vw;
 }
-.thumbnails{
+
+.thumbnails {
     display: inline-block;
     text-align: center;
     border: 1px solid ghostwhite;
     vertical-align: baseline;
     height: 50%;
 }
-.thumbnails img{
-    width: 15%;
+
+.thumbnails img {
+    width: 20%;
     height: 6vw;
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 0px;
+    margin: 2px 2px;
 }
+
 #rooms {
-    padding-top: 50px;
+    padding: 50px 0;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -186,4 +217,13 @@ button:focus {outline:0;}
 .rooms-info-list ul li img {
     width: 28px;
     height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        width: 100%;
+    }
+    .navigation p{
+        font-size: 1.5vw;
+    }
 }

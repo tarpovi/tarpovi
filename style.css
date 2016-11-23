@@ -189,7 +189,6 @@ nav.shrink button {
     color: white;
 }
 
-
 .text-image {
     z-index: +1 !important;
     display: block !important;
@@ -299,8 +298,81 @@ nav.shrink button {
 }
 
 footer {
-    background-color: darkgray;
-    height: 200px;
+    background-color: dimgray;
+    height: 350px;
+    text-align: center;
+}
+footer h2{
+    color: lightgray;
+}
+
+.footer-wrapper {
+    height: 100%;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+
+}
+
+.footer-left-info {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+}
+.footer-right-info {
+    display: inline-block;
+    text-align: left;
+    width: 38%;
+    padding-left: 50px;
+    vertical-align: top;
+    color: lightgray;
+    font-size: 1.2vw;
+}
+.footer-right-info img{
+    width: 15px;
+}
+
+.footer-left-info img {
+    display: inline-block;
+    width: 5vw;
+    text-align: left;
+    border: 1px solid forestgreen;
+    border-radius:5px;
+    padding: 5px;
+}
+
+.footer-left-info p {
+    color: lightgray;
+    display: inline-block;
+    font-size: 11px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.logo-and-copy {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-left-info hr {
+    border: 0;
+    height: 1px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b5656+0,c9c9c9+50,686868+100 */
+    background: rgb(91,86,86); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(91,86,86,1) 0%, rgba(201,201,201,1) 50%, rgba(104,104,104,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(91,86,86,1) 0%,rgba(201,201,201,1) 50%,rgba(104,104,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(91,86,86,1) 0%,rgba(201,201,201,1) 50%,rgba(104,104,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5656', endColorstr='#686868',GradientType=1 ); /* IE6-9 */
+    margin: 10px;
+}
+#designer{
+    font-size: 1vw;
+    padding-top: 4vw;
+    color: white;
+    vertical-align: bottom;
+}
+#designer a{
+    color: dodgerblue;
 }
 
 a {

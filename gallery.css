@@ -128,7 +128,7 @@ button:focus {
     background-color: whitesmoke;
     color: black;
     padding: 4vh 2vh;
-    height: 35vw;
+    height: 50vw;
     min-height: 300px;
     border-bottom: 1px solid forestgreen;
     position: relative;
@@ -158,7 +158,7 @@ button:focus {
     border: 1px solid black;
     border-radius: 5px;
     vertical-align: top;
-    max-height: 30vw;
+    height: 90%;
 }
 
 .house p {

@@ -30,7 +30,6 @@ body {
 
 nav.navbar {
     background-color: rgba(255, 255, 255, 1);
-/ / Animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
     text-align: right;
     font-size: 1.7vw;
@@ -107,7 +106,6 @@ nav button {
 
 nav.shrink img {
     display: none;
-/ / Animation -webkit-transition: all 0.9 s ease;
     transition: all 0.9s ease;
 }
 
@@ -245,7 +243,6 @@ nav.shrink button {
     display: none;
     top: 50px;
     max-height: 100%;
-/ / Animation -webkit-transition: all 0.4 s ease;
     transition: all 0.4s ease;
     z-index: +2;
     width: 100%;
@@ -445,9 +442,7 @@ a {
 
 .contactForm input[class="form-control-date"] {
     display: inline-block;
-!important;
     width: 35%;
-!important;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -471,5 +466,3 @@ a {
         margin-top: 10px;
     }
 }
-
-

@@ -17,6 +17,10 @@ body {
     height: 100%;
 }
 
+#price-description {
+    font-size: 16px;
+}
+
 #navbar-header {
     float: none;
     display: inline-block;
